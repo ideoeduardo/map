@@ -1,0 +1,249 @@
+/* MAPA */
+.box-mapa{
+	position: relative;
+	z-index: 1;
+	float: left;
+	width: 100%;
+	background-color: #F6F3E6
+	margin-top: 5
+}
+
+					  .box-mapa h3 {
+						  line-height:1.3em; margin-bottom:.3em;}
+					  h3 {margin-top:1em; font-size:1.2em;}
+					  
+
+#map {
+	display: none;
+	transform: scale(1.2);
+	transform: scale(1);
+	display: table !important;
+	margin: 0 auto;
+	float: none;
+}
+#map .state {
+    cursor: pointer;
+}
+#map .state .shape {
+    cursor: pointer;
+    -width: 0;
+}
+/*texto de estados*/
+#map .state .label_icon_state {
+    fill: #fff;
+    font-family: Arial;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: normal;
+	                overflow: auto;
+}
+#map .state .label_state {
+    display: none;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+}
+#map .state:hover .label_state {
+    display: block;
+}
+
+			  /*color de los estados*/
+			  #map .model-davi .state .shape {
+				  fill: #87c1e7;
+			  }
+								/*Zulia*/
+								#map .model-davi .state #shape_zu {fill: #00FF80;}
+								#map .model-davi .state #shape_zu:hover {fill: #088A4B;}
+								
+								/*Costa Oriental*/
+								#map .model-davi .state #shape_cos {fill: #819FF7;}
+								#map .model-davi .state #shape_cos:hover {fill: #58ACFA;}
+								
+								/*falcon*/
+								#map .model-davi .state #shape_fa {fill: #F781D8;}
+								#map .model-davi .state #shape_fa:hover {fill: #DF01D7;}
+								
+								/*Tachira*/
+								#map .model-davi .state #shape_ta {fill: #FE2E9A;}
+								#map .model-davi .state #shape_ta:hover {fill: #DF01A5;}
+								
+								/*Guarico*/
+								#map .model-davi .state #shape_Gua {fill: #B18904;}
+								#map .model-davi .state #shape_Gua:hover {fill: #DBA901;}
+								
+								/*BolÃ­var*/
+								#map .model-davi .state #shape_Bol {fill: #04B404;}
+								#map .model-davi .state #shape_Bol:hover {fill: #00FF40;}
+								
+								/*Esequibo*/
+								#map .model-davi .state #shape_Ese {fill: #f78325;}
+								#map .model-davi .state #shape_Ese:hover {fill: #ffcc00; cursor: none;}
+								
+ 								/*Monagas*/
+								#map .model-davi .state #shape_Mon {fill: #FE2E9A;}
+								#map .model-davi .state #shape_Mon:hover {fill: #DF01A5;}
+								
+ 								/*AnzoÃ¡tegui*/
+								#map .model-davi .state #shape_Anz {fill: #F781F3;}
+								#map .model-davi .state #shape_Anz:hover {fill: #B404AE;}
+								
+ 								/*Miranda*/
+								#map .model-davi .state #shape_Mir {fill: #FE2E64;}
+								#map .model-davi .state #shape_Mir:hover {fill: #B40431;}
+								
+ 								/*Capital*/
+								#map .model-davi .state #shape_Capi {fill: #F78181;}
+								#map .model-davi .state #shape_Capi:hover {fill: #B40404;}
+								
+ 								/*Aragua*/
+								#map .model-davi .state #shape_Arag {fill: #819FF7;}
+								#map .model-davi .state #shape_Arag:hover {fill: #0174DF;}
+								
+ 								/*Barinas*/
+								#map .model-davi .state #shape_Bari {fill: #FAAC58;}
+								#map .model-davi .state #shape_Bari:hover {fill: #FFBF00;}
+								
+ 								/*Portuguesa*/
+								#map .model-davi .state #shape_Portu {fill: #81F781;}
+								#map .model-davi .state #shape_Portu:hover {fill: #01DF3A;}
+								
+ 								/*Merida*/
+								#map .model-davi .state #shape_Meri {fill: #BE81F7;}
+								#map .model-davi .state #shape_Meri:hover {fill: #A901DB;}
+								
+ 								/*Lara*/
+								#map .model-davi .state #shape_Lar {fill: #F7FE2E;}
+								#map .model-davi .state #shape_Lar:hover {fill: #D7DF01;}
+								
+ 								/*Carabobo*/
+								#map .model-davi .state #shape_Cara {fill: #FA58F4;}
+								#map .model-davi .state #shape_Cara:hover {fill: #DF01D7;}
+								
+
+				/*punto que representa la geresat en color azul*/
+				#map .model-davi .state .icon_state{
+					fill: #284779;
+				}
+				/*punto que representa la geresat en hover color Rojo*/
+				#map .model-davi .state:hover .icon_state{
+					fill: #eb003a;
+				}
+				
+/*Color de texto*/
+#map .model-davi .state .icon_state + .label_icon_state{
+	fill: #fff;
+}
+#map .model-davi .state:hover .icon_state + .label_icon_state{
+	
+}
+/*Color de texto 2 #666*/
+#map .model-davi .state .label_icon_state {
+    fill: #fff;
+}  0
+#map .model-davi .state:hover .label_icon_state{
+	fill: #FFF;
+}
+#map .model-davi .state .label_state {
+    fill: #666;
+    display: none;
+}
+#map .model-davi .state .shape{	
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+#map .model-davi .state:hover .shape {
+    fill: #676666;
+}
+
+
+
+
+
+.parca{
+	position: relative;
+	width: 100%;
+	float: left;
+}
+.parca select{
+	display: none;
+	margin: 0 auto;
+	width: 230px;
+	border: 1px solid #999;
+	height: 40px;
+	padding: 9px;
+	border-radius: 0;
+}
+.parca .estado{
+	font-family: Arial;
+    font-size: 14px;
+    line-height: 18px;
+	
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+	border: 1px solid #999;
+	position: absolute;
+	margin-top: 45px;
+	opacity: 0;
+	visibility: visible;
+	padding: 15px;
+	left: 0;
+	right: 0;
+	min-width: 200px;
+	width: 420px;
+	display: table;
+	margin: 57px auto 0;
+}
+.parca .estado h3{
+	margin-top: 0;
+}
+.parca .estado ul{
+	padding-left: 15px;
+}
+
+.parca #box_mg.estado{
+	opacity: 1;
+	visibility: visible;
+}
+
+
+
+
+@media(max-width: 1199px){
+	#map{
+		transform: scale(1);
+	}
+}
+@media(max-width: 991px){
+	.parceiros .two .parca .estado{
+		display: block;
+		margin: 45px auto;
+		float: none;
+		position: absolute;
+		left: 0;
+		right: 0;
+		min-width: 160px;
+		max-width: 306px;
+	}
+.box-mapa{
+	    position: relative;
+	    top: 0;
+	    left: initial;
+	    display: table;
+	    margin: 0 auto;
+	}
+}
+@media(max-width: 500px){
+	.box-mapa{
+		display: none;
+	}
+	.parca select{
+		display: block;
+	}
+}
